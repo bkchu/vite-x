@@ -1,46 +1,17 @@
-import { useState } from 'react';
-import './App.css';
-import logo from './logo.svg';
-
 const App = () => {
-  const [count, setCount] = useState(0);
-
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React!</p>
-        <p>
-          <button
-            type="button"
-            onClick={() => setCount((currCount) => currCount + 1)}
-          >
-            count is: {count}
-          </button>
-        </p>
-        <p>
-          Edit <code>App.tsx</code> and save to test HMR updates.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          {' | '}
-          <a
-            className="App-link"
-            href="https://vitejs.dev/guide/features.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Vite Docs
-          </a>
-        </p>
-      </header>
+    <div className="bg-white">
+      <div className="max-w-screen-xl px-4 py-16 mx-auto sm:py-24 sm:px-6 lg:px-8">
+        <div className="text-center">
+          <h2 className="text-base font-semibold tracking-wide text-blue-600 uppercase">
+            Welcome to
+          </h2>
+          <p className="my-3 text-4xl font-bold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
+            reactjs-vite-tailwindcss-boilerplate
+          </p>
+          <p className="text-xl text-gray-400">Start building for free.</p>
+        </div>
+      </div>
     </div>
   );
 };
