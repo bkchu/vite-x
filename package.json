@@ -14,6 +14,7 @@
     "react-dom": "^18.0.0"
   },
   "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^3.2.0",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "@typescript-eslint/eslint-plugin": "^5.22.0",
@@ -23,7 +24,7 @@
     "eslint-config-kentcdodds": "^20.2.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-react": "^7.29.4",
-    "husky": "^7.0.0",
+    "husky": "^7.0.4",
     "lint-staged": "^12.4.1",
     "prettier": "^2.6.2",
     "typescript": "^4.6.3",
