@@ -3,7 +3,7 @@ module.exports = {
     browser: true,
     es2021: true
   },
-  extends: ['kentcdodds', 'kentcdodds/react', 'prettier'],
+  extends: ['kentcdodds', 'prettier'],
   ignorePatterns: ['.eslintrc.js'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
