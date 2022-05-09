@@ -1,7 +1,29 @@
 {
-  "name": "vite-react-ts-template",
+  "name": "vite-react-typescript-tailwindcss",
+  "description": "A Vite + React + TypeScript + TailwindCSS boilerplate (using pnpm) with DX in mind",
+  "keywords": [
+    "react",
+    "reactjs",
+    "vite",
+    "vitejs",
+    "typescript",
+    "pnpm",
+    "template",
+    "boilerplate",
+    "tailwindcss",
+    "prettier",
+    "eslint",
+    "husky",
+    "lint-staged"
+  ],
+  "homepage": "https://github.com/bkchu/vite-react-typescript-tailwindcss",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "author": {
+    "name": "Brandon Chung",
+    "email": "brandon@bkchu.dev",
+    "url": "https://github.com/bkchu"
+  },
   "scripts": {
     "dev": "vite --port 8080",
     "build": "tsc && vite build",
