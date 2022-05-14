@@ -14,7 +14,7 @@ const App = () => {
           </h1>
           <p className="max-w-screen-md mx-auto text-xl text-gray-400">
             A simple, DX-focused Vite + ReactJS + TailwindCSS template to hit
-            the ground running.
+            the ground running
           </p>
         </div>
       </div>
