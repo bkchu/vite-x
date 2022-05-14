@@ -12,10 +12,17 @@ const App = () => {
               X
             </span>
           </h1>
-          <p className="max-w-screen-md mx-auto text-xl text-gray-400">
+          <p className="max-w-screen-md mx-auto text-xl text-gray-600 dark:text-gray-400">
             A simple, DX-focused Vite + ReactJS + TailwindCSS template to hit
             the ground running
           </p>
+          <a
+            href="https://github.com/bkchu/vite-x/generate"
+            rel="noopener noreferrer"
+            className="text-xl inline-block px-12 py-4 mt-24 text-black rounded-full ring-expand bg-gradient-to-br from-[#4dcaff] via-[#9480ff] to-[#bd34fe]"
+          >
+            Use this Template
+          </a>
         </div>
       </div>
     </div>
