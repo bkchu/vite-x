@@ -15,3 +15,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.ring-expand {
+  @apply transition-all hover:ring ring-gray-900 dark:ring-gray-100 hover:ring-offset-4 hover:ring-offset-white dark:hover:ring-offset-gray-800;
+}

@@ -1,6 +1,6 @@
 {
-  "name": "vite-react-typescript-tailwindcss",
-  "description": "A Vite + React + TypeScript + TailwindCSS boilerplate (using pnpm) with DX in mind",
+  "name": "vite-x",
+  "description": "A simple, DX-focused Vite + ReactJS + TailwindCSS template to hit the ground running.",
   "keywords": [
     "react",
     "reactjs",
@@ -14,7 +14,10 @@
     "prettier",
     "eslint",
     "husky",
-    "lint-staged"
+    "lint-staged",
+    "react-testing-library",
+    "vitest",
+    "dark-mode"
   ],
   "homepage": "https://github.com/bkchu/vite-react-typescript-tailwindcss",
   "private": true,
