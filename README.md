@@ -1,4 +1,6 @@
-# A Vite + React + TypeScript + TailwindCSS boilerplate (using pnpm) with DX in mind
+# ViteX
+
+_A simple, DX-focused Vite + ReactJS + TailwindCSS template to hit the ground running._
 
 ## Features
 
@@ -12,6 +14,8 @@
 - `husky`
 - `lint-staged`
 - `tailwindcss`
+- `vitest`
+- `react-testing-library`
 
 ## Usage
 
@@ -19,7 +23,7 @@ _Make sure pnpm is [installed](https://pnpm.io/installation)._
 
 ```bash
 # clones the template
-$ pnpm dlx degit bkchu/vite-react-typescript-tailwindcss <custom-name>
+$ pnpm dlx degit bkchu/vite-x <custom-name>
 
 # go into the project folder
 $ cd <custom-name>
