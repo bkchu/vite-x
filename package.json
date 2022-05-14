@@ -74,6 +74,7 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
+      "vitest related --run --coverage=false",
       "eslint --cache --fix",
       "prettier --write"
     ],

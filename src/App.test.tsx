@@ -5,6 +5,8 @@ import { describe, expect, it } from 'vitest';
 describe('the app', () => {
   it('should render', () => {
     render(<App />);
-    expect(screen.getByText(/ViteX/i)).toBeInTheDocument();
+    expect(
+      screen.getByRole('link', { name: /Use this template/i })
+    ).toBeInTheDocument();
   });
 });
